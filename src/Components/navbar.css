@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 10%;
+    /* background: #e1ecfc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.bookbug{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+li,a,button{
+    font-family: Rubik;
+    color:#0B132A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 8px;
+    
+}
+
+.logo{
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(113, 177, 255, 0.25));
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0 20px;
+    margin-left: auto;
+    
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #ffffff;
+    background-color: #388ff5;
+    border-radius:80px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    
+}
+
+.signup{
+    border: 2px solid #388ff5;
+    border-radius:80px;
+    color: #388ff5;
+}
