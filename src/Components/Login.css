@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.login{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(54.58deg, rgba(255, 255, 255, 0) 49.53%, #D4E8FF 50.02%), #388FF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    background-color: white;
+    box-shadow: -23px 27px 14px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+
+.logo1{
+    padding: 40px;
+   
+}
+
+.btn1{
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ea4e4e;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top:25px ;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btn1:hover{
+    box-shadow: 0px 10px 20px #f84747;
+}
+
+.btn2{
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 40px;
+    cursor: pointer;
+    background-color: #388ff5;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top:25px ;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btn2:hover{
+    box-shadow: 0px 10px 20px #1272df;
+}
+
+.social{
+    margin-left: 20px;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -29,9 +29,7 @@ li,a,button{
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    text-decoration: none;
-    padding: 8px;
-    
+    text-decoration: none; 
 }
 
 .logo{
@@ -46,21 +44,23 @@ li,a,button{
     
 }
 
-.nav-links li a{
+.nav-links li button{
     transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover{
+.nav-links li button:hover{
     color: #ffffff;
     background-color: #388ff5;
     border-radius:80px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
-    
 }
 
-.signup{
+.btn3{
     border: 2px solid #388ff5;
     border-radius:80px;
     color: #388ff5;
+    background: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    outline: none;
 }

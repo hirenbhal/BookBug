@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import Frame from "../Images/Frame.png";
 
@@ -6,16 +7,17 @@ const Navbar = () => {
   return (
     <header>
       <div>
-        <img src={Frame} alt="" className="logo" />
-        <h1 className="bookbug">bookBUG</h1>
+        <Link to="/">
+          <img src={Frame} alt="" className="logo" />
+          <h1 className="bookbug">bookBUG</h1>
+        </Link>
       </div>
       <nav>
         <ul className="nav-links">
           <li>
-            <a href="">Sign In</a>
-          </li>
-          <li>
-            <a href="#" className="signup">Sign Up</a>
+            <Link to="login">
+              <button className="btn3">Login</button>
+            </Link>
           </li>
         </ul>
       </nav>
